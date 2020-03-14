@@ -32,6 +32,7 @@ services:
       WORDPRESS_DEBUG:
       WORDPRESS_CONFIG_EXTRA: |
         define('ALLOW_UNFILTERED_UPLOADS', true);
+        define( 'FS_METHOD', 'direct' );
     volumes:
       - ./wordpress/php.ini:/usr/local/etc/php/conf.d/uploads.ini
       - ../html/wp-content:/var/www/html/wp-content
