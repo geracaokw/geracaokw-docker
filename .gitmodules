@@ -1,0 +1,4 @@
+[submodule "html/wp-content/themes/geracaokw-theme"]
+	path = html/wp-content/themes/geracaokw-theme
+	url = git@github.com:geracaokw/geracaokw-theme.git
+	branch = master
